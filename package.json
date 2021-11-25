@@ -1,0 +1,19 @@
+np start{
+  "name": "package",
+  "version": "1.0.0",
+  "description": "Hello",
+  "main": "yes",
+  "scripts": {
+    "test": "hello"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/massalove/massalove.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/massalove/massalove.github.io/issues"
+  },
+  "homepage": "https://github.com/massalove/massalove.github.io#readme"
+}
