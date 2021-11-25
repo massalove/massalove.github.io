@@ -1,14 +1,16 @@
 import React from 'react';
 import Typewriter from 'typewriter-effect';
+import './app.css';
+
 
 function App() {
 
-    return (
+    
+const myMessageS = document.querySelector('#messageM');
 
-        <div className="welcome">
+
 
         <Typewriter 
-        
         onInit = {
 
             (typewriter) => {
@@ -19,12 +21,6 @@ function App() {
         }
         
         />
-
-
-        </div>
-
-
-    )
 
 }
 
