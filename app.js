@@ -10,7 +10,7 @@ const myMessageS = document.querySelector('#messageM');
 
 
 
-        <Typewriter 
+      myMessageS.innerHTML =  <Typewriter 
         onInit = {
 
             (typewriter) => {
@@ -20,7 +20,7 @@ const myMessageS = document.querySelector('#messageM');
 
         }
         
-        />
+        />;
 
 }
 
